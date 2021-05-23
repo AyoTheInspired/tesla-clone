@@ -33,6 +33,32 @@ function Home() {
 				leftBtnText="Custom Order"
 				rightBtnText="Existing Inventory"
 			/>
+
+			<Section
+				title="Lowest Cost Solar Panels in America"
+				description="Money-back Guarantee"
+				backgroundImg="solar-panel.jpg"
+				leftBtnText="Custom Order"
+				rightBtnText="Existing Inventory"
+			/>
+
+
+			<Section
+				title="Solar for New Roofs"
+				description="Solar Roofs cost less than a new roof"
+				backgroundImg="solar-roof.jpg"
+				leftBtnText="Order Now"
+				rightBtnText="Learn More"
+			/>
+
+
+			<Section
+				title="Accessories"
+				description=""
+				backgroundImg="accessories.jpg"
+				leftBtnText="Shop Now"
+			/>
+
 		</Container>
 	);
 }

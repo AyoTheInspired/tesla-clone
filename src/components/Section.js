@@ -18,8 +18,10 @@ function Section({
 			<Buttons>
 				<ButtonGroup>
 					<LeftButton> {leftBtnText} </LeftButton>
-
+				
+				{rightBtnText && 
 					<RightButton> {rightBtnText} </RightButton>
+				}
 				</ButtonGroup>
 
 				<DownArrow src="/images/down-arrow.svg" />
