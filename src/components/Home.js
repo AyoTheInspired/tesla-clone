@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Details from "./Details";
 import Section from "./Section";
 
 function Home() {
@@ -42,7 +43,6 @@ function Home() {
 				rightBtnText="Existing Inventory"
 			/>
 
-
 			<Section
 				title="Solar for New Roofs"
 				description="Solar Roofs cost less than a new roof"
@@ -51,14 +51,12 @@ function Home() {
 				rightBtnText="Learn More"
 			/>
 
-
 			<Section
 				title="Accessories"
 				description=""
 				backgroundImg="accessories.jpg"
 				leftBtnText="Shop Now"
 			/>
-
 		</Container>
 	);
 }
